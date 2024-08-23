@@ -1,0 +1,1246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+
+}
+
+body {
+    width: 100%;
+
+
+}
+.page1 {
+    width: 100%;
+    height: 70vh;
+    background-image: url(./pexels-lukas-rychvalsky-670720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+    opacity: 85%;
+ 
+}
+.page1.menu{
+    position: relative;
+   
+
+  
+  
+}
+
+.menu nav {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+  
+    
+}
+
+
+
+
+
+.menu nav a {
+    text-decoration: none;
+    color: gray;
+  
+
+}
+
+.menu nav .logo h2 {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+
+ 
+
+    color: blueviolet;
+
+
+
+}
+
+.menu nav ul {
+
+    width: 70%;
+    display: flex;
+    float: right;
+ 
+
+ 
+    justify-content: space-around;
+
+
+
+
+}
+
+.menu nav ul li {
+    list-style: none;
+
+
+
+}
+
+.menu nav a:hover {
+    color: blueviolet;
+}
+
+
+
+.burger {
+    position: absolute;
+    display: none;
+
+ 
+   
+    right: 20px;
+
+   
+    cursor: pointer;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+
+
+}
+
+.burger .burger1 {
+    width: 20px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    margin: 3px;
+
+}
+
+
+
+
+
+
+
+.contant h1 {
+
+    color: white;
+    font-size: 5em;
+
+
+}
+
+.contant p {
+
+    color: white;
+    font-size: 5em;
+
+
+
+}
+
+.contant span {
+    color: blueviolet;
+}
+
+.dow {
+
+    width: 55%;
+    height: 10%;
+    font-size: .5em;
+    padding: 20px 20px;
+    background-color: blueviolet;
+    color: white;
+
+}
+
+/* page2*/
+.page2 {
+    width: 100%;
+    min-height: 40vh;
+    margin-top: 50px;
+
+
+}
+
+.page2 .abs h1 {
+
+
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+
+.ab {
+
+
+    width: 40%;
+    height: 50%;
+
+
+}
+
+.abo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile {
+    width: 40%;
+    height: 50%;
+    background: rgb(24, 19, 56);
+}
+
+.profile img {
+    width: 100%;
+    height: 40%;
+}
+
+.profile .four {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.profile .four .f1 {
+    width: 7%;
+    border-radius: 5px;
+
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile .four .f2 {
+    width: 7%;
+    border-radius: 5px;
+
+
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile .four .f3 {
+    width: 7%;
+    border-radius: 5px;
+    padding: 5px;
+
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile .four .f4 {
+    width: 7%;
+    border-radius: 5px;
+
+
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile .four .f5 {
+    width: 7%;
+    border-radius: 5px;
+
+
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile .four i {
+    color: white;
+}
+
+.cont {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.7em;
+    margin-left: 50px;
+
+
+
+}
+
+.cont p {
+
+    margin: 10px;
+}
+
+/*education*/
+
+
+.page3 {
+    width: 100%;
+
+    margin-top: 100px;
+    background-color: aliceblue;
+
+}
+
+#EDUCATION h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+
+}
+
+.ed1 {
+    width: 30%;
+    min-height: 30%;
+
+    padding: 50px;
+    border-bottom: 1px solid;
+
+}
+
+.ed1 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+
+.ed2 {
+    width: 30%;
+    min-height: 30%;
+
+    padding: 50px;
+    border-bottom: 1px solid;
+
+}
+
+.ed2 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.ed3 {
+    width: 30%;
+    min-height: 30%;
+
+    padding: 50px;
+    border-bottom: 1px solid;
+
+}
+
+.ed3 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.edu {
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    color: grey;
+}
+
+/*skills*/
+
+
+.page4 {
+    width: 100%;
+    min-height: 40Vh;
+    margin-top: 100px;
+}
+
+.S h1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+
+.sk p {
+    font-size: 1em;
+
+
+}
+
+
+.ss p {
+    font-size: 1em;
+
+
+}
+
+.ht1 {
+    display: flex;
+
+}
+
+.ht2 {
+    display: flex;
+
+}
+
+.ht3 {
+    display: flex;
+
+}
+
+.ht4 {
+    display: flex;
+
+}
+
+.ht5 {
+    display: flex;
+
+}
+
+.ht6 {
+    display: flex;
+
+}
+progress{
+    font-size: 1em;
+}
+
+.ht1 progress {
+    margin-left:100px;
+}
+
+.ht2 progress {
+ margin-left: 100px;
+}
+
+.ht3 progress {
+    margin-left: 40px;
+}
+
+.ht4 progress {
+    margin-left: 90px;
+}
+
+.ht5 progress {
+    margin-left: 60px;
+}
+
+.ht6 progress {
+    margin-left: 30px;
+}
+
+
+.course {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.page5 {
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 100px;
+
+}
+
+.page5 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+
+
+}
+
+.new {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.new1 {
+
+    border-right: 1px solid;
+}
+
+.new1 p {
+    margin: 50px;
+}
+
+.new2 p {
+    margin: 50px;
+}
+
+
+.page6 {
+    width: 100%;
+    min-height: 50vh;
+    margin-top: 100px;
+    position: relative;
+
+
+}
+
+.page6 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+
+.small {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.box1 {
+    width: 20%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid;
+
+    border-right: 1px solid;
+}
+
+.box1:hover {
+    transform: scale(1.1);
+    transition: 1sec;
+    background-color: blueviolet;
+}
+
+
+.box2 {
+    width: 20%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.box2:hover {
+    transform: scale(1.1);
+    transition: 1sec;
+    background-color: blueviolet;
+}
+
+.box3 {
+    width: 20%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.box3:hover {
+    transform: scale(1.1);
+    transition: 0.2sec;
+    background-color: blueviolet;
+}
+
+.box4 {
+    width: 20%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: 1px solid;
+
+}
+
+.box4:hover {
+    transform: scale(1.1);
+    transition: 0.2sec;
+    background-color: blueviolet;
+}
+
+
+.box5 {
+    width: 20%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.box5:hover {
+    transform: scale(1.1);
+    transition: 0.2sec;
+    background-color: blueviolet;
+}
+
+.box6 {
+    width: 20%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.box6:hover {
+    transform: scale(1.1);
+    transition: 0.2sec;
+    background-color: blueviolet;
+}
+
+.box7 {
+    width: 20%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.box7:hover {
+    transform: scale(1.1);
+    transition: 0.2sec;
+    background-color: blueviolet;
+}
+
+.box8 {
+    width: 20%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: 1px solid;
+}
+
+.box8:hover {
+    transform: scale(1.1);
+    transition: 0.2sec;
+    background-color: blueviolet;
+}
+
+.small i {
+    font-size: 1.5em;
+    color: gray;
+}
+
+
+.small1 {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.small2 {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.page7 {
+    width: 100%;
+ 
+}
+
+.page7 h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+     
+}
+
+
+
+.pos{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.pr1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pos .ph1:hover{
+     transform: scale(1.1);
+     transition: 1sec;
+}
+.pos .ph2:hover{
+    transform: scale(1.1);
+    transition: 1sec;
+}
+.pr1 .ph3:hover{
+    transform: scale(1.1);
+    transition: 1sec;
+}
+.pr1 .ph4:hover{
+    transform: scale(1.1);
+    transition: 1sec;
+}
+
+/*page8*/
+.page8{
+    width: 100%;
+    height: 80vh;
+    
+ 
+
+}
+.page8 h1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left input{
+    width: 400px;
+     height: 40px;
+   
+     margin: 20px;
+    
+   
+
+}
+.left textarea{
+   width: 400px;
+   margin: 20px;
+   height: 200px;
+
+    
+
+}
+.left button{
+    width: 80%;
+    height: 50px;
+    margin-left: 15px;
+  
+    border: none;
+   
+    background-color: blueviolet;
+
+}
+.fin{
+    margin-top: 100px;
+   display: flex;
+  justify-content: space-evenly;
+}
+.right h2,h3, p{
+    margin: 20px;
+}
+.fins{
+    margin: 20px;
+}
+.fins i{
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+@media all and (max-width:1200px) {
+  
+
+    .course {
+        width: 100%;
+
+    }
+    .burger{
+        display: none;
+    }
+
+    .small {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .edu {
+        width: 100%;
+    }
+    .page5{
+        font-size:0.8em;
+    }
+
+    .page6 {
+        width: 100%;
+       
+    }
+   
+
+    .left button{
+        width:400px;
+        margin-left: 5px;
+
+    }
+    .right{
+        font-size: 1em;
+    }
+   
+    .page7 h1{
+        margin-bottom: 100px;
+
+    }
+    .page8{
+        height: 50vh;
+    
+    }
+
+
+  
+
+
+}
+
+
+
+
+@media all and (max-width:960px) {
+    .menu nav ul {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+
+
+    .dow {
+
+        width: 50%;
+        height: 10%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+
+    }
+
+
+
+    /*about*/
+
+
+    .cont {
+        font-size: 0.7em;
+
+    }
+
+    .profile .four .f1 {
+        width: 10%;
+    }
+
+    .profile .four .f2 {
+        width: 10%;
+    }
+
+    .profile .four .f3 {
+        width: 10%;
+    }
+
+    .profile .four .f4 {
+        width: 10%;
+    }
+
+    .profile .four .f5 {
+        width: 10%;
+    }
+
+
+    /*education*/
+    .edu {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .ed1 {
+        padding: 10px;
+        border-bottom: 1px solid;
+    }
+
+    .ed2 {
+        padding: 10px;
+        border-bottom: 1px solid;
+    }
+
+    .ed3 {
+        padding: 10px;
+        border-bottom: 1px solid;
+    }
+
+    .small i {
+        font-size: 1em;
+        margin-left: 10px;
+
+    }
+
+    .small1 {
+
+        width: 100%;
+        font-size: 0.7em;
+
+
+    }
+
+    .small2 {
+
+        width: 100%;
+        font-size: 0.7em;
+
+    }
+
+    .course p {
+        font-size: 0.7em;
+    }
+
+    .sk {
+        font-size: 0.8em;
+
+    }
+
+    .ss {
+        font-size:0.8em;
+
+    }
+
+    progress {
+        font-size: 1em;
+    }
+    .ht3 progress{
+        margin-left: 80px;
+    }
+    .ht5 progress{
+        margin-left: 70px;
+    }
+    .ht6 progress{
+        margin-left: 50px;
+    }
+  
+
+   
+
+    .fin button{
+        width: 400px;
+        margin-left: 20px;
+    }
+    .right{
+        margin-right: 100px;
+    }
+   
+
+
+
+}
+
+@media all and (max-width:560px) {
+
+    .menu nav ul {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+      
+    }
+    .menu nav .logo h2{
+        font-size: 2em;
+    
+       
+
+    }
+
+
+  
+
+    .contant {
+        font-size: 0.8em;
+    }
+
+
+
+    .dow {
+        font-size: 0.7em;
+        width: 55%;
+
+
+
+    }
+
+
+
+    .abo {
+        flex-direction: column;
+
+    }
+
+    .ab {
+        width: 100%;
+
+    }
+
+    .ab p {
+        font-size: 0.8em;
+    }
+
+    .profile {
+        width: 100%;
+
+    }
+
+    .cont {
+        flex-direction: column;
+        margin: 20px;
+        font-size: 1.2em;
+
+    }
+
+
+
+    .edu {
+
+
+
+        font-size: 0.9em;
+        flex-direction: column;
+
+    }
+
+    .ed1 {
+        width: 100%;
+        background-color: aliceblue;
+    }
+
+    .ed2 {
+        width: 100%;
+        background-color: aliceblue;
+    }
+
+    .ed3 {
+        width: 100%;
+        background-color: aliceblue;
+    }
+
+
+
+    /*page4*/
+    .course {
+        flex-direction: column;
+      
+    }
+    .sk p{
+        font-size: 0.9em;
+
+    }
+    .ss p{
+        font-size: 0.9em;
+
+    }
+    .ht3 progress{
+        margin-left: 100px;
+    }
+    .ht4 progress{
+        margin-left: 100px;
+    }
+    .ht5 progress{
+        margin-left: 100px;
+    }
+    .ht6 progress{
+        margin-left: 100px;
+    }
+  
+  
+
+   
+
+
+
+
+
+    /*page5*/
+    .new {
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .new1 {
+        border-right: none;
+        border-left: 1 px solid;
+    }
+
+
+    /*page6*/
+
+    .box1 {
+        width: 80%;
+        border: none;
+        margin-left: 40px;
+
+
+    }
+
+    .box2 {
+        width: 80%;
+        border: none;
+
+        margin-left: 40px;
+    }
+
+    .box3 {
+        width: 80%;
+        border: none;
+        margin-left: 40px;
+
+    }
+
+    .box4 {
+        width: 80%;
+        border: none;
+        margin-left: 40px;
+    }
+
+    .box5 {
+        width: 80%;
+        border: none;
+        margin-left: 40px;
+    }
+
+    .box6 {
+        width: 80%;
+        border: none;
+        margin-left: 40px;
+    }
+
+    .box7 {
+        width: 80%;
+        border: none;
+        margin-left: 40px;
+    }
+
+    .box8 {
+        width: 80%;
+        border: none;
+        margin-left: 40px;
+    }
+
+
+
+
+    .small1 {
+        flex-direction: column;
+        font-size: 2em;
+
+
+    }
+
+    .small2 {
+        flex-direction: column;
+        font-size: 2em;
+
+    }
+    /*page7*/
+
+   
+    .prs{
+        margin-top: 100px;
+    }
+    .pos{
+       flex-direction: column;
+       justify-content: center;
+       margin-left: 35px;
+   
+      
+    }
+    .pr1{
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 35px;
+
+     
+
+    }
+    
+    /*
+
+    /*page 8*/
+    .fin{
+        flex-direction: column;
+       
+       
+    }
+    .right{
+        flex-direction: column;
+    }
+
+    input{
+        font-size: 1em;
+    }
+    .left input{
+        width: 300px;
+    }
+    .left textarea{
+        width: 300px;
+    }
+    .left button{
+        width: 300px;
+        margin-left: 20px;
+    }
+   
+    
+ 
+
+
+
+
+}
